@@ -1,26 +1,25 @@
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
 import CarCard from './components/carCard';
 import CarModal from './components/carModal';
-import BuyPage from './components/buypage'; //
+import BuyPage from './components/buypage'; 
 import { cars } from './data/cars';
 import CarDetails from './components/new';
 import './components/App.css'
 import { Car as CarIcon, ShieldCheck, Clock } from 'lucide-react';
 
 function App() {
-  const [showModal, setShowModal] = useState(true);
+  const [setShowModal] = useState(true);
   const [selectedCar, setSelectedCar] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState('all');
-  const [actionType, setActionType] = useState(null); // Track whether "buy" or "rent" is clicked
+  const [actionType, setActionType] = useState(null); 
 
   const filteredCars = selectedCategory === 'all'
     ? cars
     : cars.filter(car => car.category.toLowerCase() === selectedCategory.toLowerCase());
 
   const handleAction = (type, car) => {
-    setActionType(type); // Set the action type ("buy" or "rent")
+    setActionType(type); 
     setSelectedCar(car); 
 
   };

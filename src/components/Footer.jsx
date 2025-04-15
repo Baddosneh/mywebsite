@@ -18,10 +18,10 @@ export default function Footer() {
           <div className="col-md-3 mb-4">
             <h4 className="h6 mb-3">Quick Links</h4>
             <ul className="list-unstyled">
-              <li><a href="#" className="text-muted text-decoration-none">About Us</a></li>
-              <li><a href="#" className="text-muted text-decoration-none">Our Fleet</a></li>
-              <li><a href="#" className="text-muted text-decoration-none">Pricing</a></li>
-              <li><a href="#" className="text-muted text-decoration-none">Contact</a></li>
+              <li><a href="https://x.com/Tech_Baddo" className="text-muted text-decoration-none">About Us</a></li>
+              <li><a href="https://x.com/Tech_Baddo" className="text-muted text-decoration-none">Our Fleet</a></li>
+              <li><a href="https://x.com/Tech_Baddo" className="text-muted text-decoration-none">Pricing</a></li>
+              <li><a href="https://x.com/Tech_Baddo" className="text-muted text-decoration-none">Contact</a></li>
             </ul>
           </div>
 
@@ -29,10 +29,10 @@ export default function Footer() {
           <div className="col-md-3 mb-4">
             <h4 className="h6 mb-3">Services</h4>
             <ul className="list-unstyled">
-              <li><a href="#" className="text-muted text-decoration-none">Car Sales</a></li>
-              <li><a href="#" className="text-muted text-decoration-none">Car Rental</a></li>
-              <li><a href="#" className="text-muted text-decoration-none">Maintenance</a></li>
-              <li><a href="#" className="text-muted text-decoration-none">Insurance</a></li>
+              <li><a href="https://x.com/Tech_Baddo" className="text-muted text-decoration-none">Car Sales</a></li>
+              <li><a href="https://x.com/Tech_Baddo" className="text-muted text-decoration-none">Car Rental</a></li>
+              <li><a href="https://x.com/Tech_Baddo" className="text-muted text-decoration-none">Maintenance</a></li>
+              <li><a href="https://x.com/Tech_Baddo" className="text-muted text-decoration-none">Insurance</a></li>
             </ul>
           </div>
 
