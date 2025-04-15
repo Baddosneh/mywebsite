@@ -1,0 +1,28 @@
+#font {
+  font-family: 'Audiowide', cursive;
+}
+
+#fontee {
+  font-family: 'Sofia', sans-serif;
+
+  
+}
+
+#fonte{
+ font-family: 'Audiowide', serif;
+
+  font-size: 50px;
+}
+
+#position {
+  font-size: 80px;
+  position: relative;
+  top: 20px;
+}
+
+#size {
+  position: relative;
+  right: 0px;
+  max-height: 20px;
+}
+
