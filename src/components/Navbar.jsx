@@ -22,6 +22,7 @@ export default function Navbar() {
             textShadow: '0 2px 4px rgba(0, 0, 0, 0.2)',
             
           }}
+          href='https://x.com/Tech_Baddo'
         >
           <img src="https://media.sketchfab.com/models/14098492e1ba4cd1a18c977a30689d4b/thumbnails/06095ddc24a04bbc967a8186019327ac/8bef94edf07b4bbbbc5b1bddfd8277c1.jpeg" alt="Avatar Logo" style={{width: "50px"}} className="rounded-pill"></img>
           AutoElite
