@@ -5,7 +5,7 @@ import { Home, ShoppingCart, Car, Info, Phone, User, Search } from 'lucide-react
 export default function Navbar() {
   return (
     <nav
-      className="navbar navbar-expand-lg    text-white"
+      className="navbar navbar-expand-lg fixed-top   text-white"
       style={{
         
         boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
