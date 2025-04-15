@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Home, ShoppingCart, Car, Info, Phone, User, Search } from 'lucide-react';
+import { ShoppingCart,  User } from 'lucide-react';
 
 export default function Navbar() {
   return (
@@ -73,8 +73,8 @@ export default function Navbar() {
                 className="nav-link text-white btn btn-outline-primary fw-bold mx-2"
                 to="/rent"
                 style={{
-                  borderRadius: '20px', // For rounded-pill
-                  boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)', // For shadow
+                  borderRadius: '20px', 
+                  boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)', 
                 }}
               >
                 Rent

@@ -40,16 +40,16 @@ export default function Footer() {
           <div className="col-md-3 mb-4">
             <h4 className="h6 mb-3">Connect With Us</h4>
             <div className="d-flex gap-3">
-              <a href="#" className="text-muted">
+              <a href="https://x.com/Tech_Baddo" className="text-muted">
                 <Facebook size={24} />
               </a>
-              <a href="#" className="text-muted">
+              <a href="https://x.com/Tech_Baddo" className="text-muted">
                 <Twitter size={24} />
               </a>
-              <a href="#" className="text-muted">
+              <a href="https://x.com/Tech_Baddo" className="text-muted">
                 <Instagram size={24} />
               </a>
-              <a href="#" className="text-muted">
+              <a href="https://x.com/Tech_Baddo" className="text-muted">
                 <Youtube size={24} />
               </a>
             </div>
